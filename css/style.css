@@ -1,0 +1,26 @@
+h1{text-align: center;}
+
+ul{
+    width: 800px;
+}
+
+li{
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 8px;
+    transition: background-color .1s;
+}
+
+em{
+    color:red;
+    font-weight: bold;
+}
+
+.overed{
+    background-color: silver;
+}
+
+.selected{
+    background-color: forestgreen;
+}
