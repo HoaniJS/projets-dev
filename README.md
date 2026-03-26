@@ -2,6 +2,7 @@
 
 ## Contexte
 Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner au JavaScript.
+
 L'objectif était de construire un programme affichant un rectangle de couleur réagissant à différentes interactions avec la souris de l'utilisateur.
 
 ## Installation
