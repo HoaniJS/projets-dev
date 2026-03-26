@@ -7,6 +7,6 @@ Bien que ce code soit assez grossier et que j'ai trouvé des sites faisant exact
 
 ## Installation
 1. Installer XAMPP si nécessaire
-2. Cloner la branche dans le sous-répertoire `htdocs` du répertoire principal de XAMPP (accessible par le bouton `Explore` sur XAMPP Control Panel
+2. Cloner la branche dans le sous-répertoire `htdocs` du répertoire principal de XAMPP (accessible par le bouton `Explorer` sur XAMPP Control Panel
 3. Lancer Apache dans XAMPP Control Panel
 4. Entrer [http://localhost/randomizer/](http://localhost/randomizer/) dans la barre d'adresse du navigateur
