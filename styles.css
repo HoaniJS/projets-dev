@@ -1,0 +1,19 @@
+.rectangle {
+    background-color: royalblue;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.important {
+    background-color: firebrick;
+}
+
+.good {
+    background-color: limegreen;
+}
