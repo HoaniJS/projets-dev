@@ -1,8 +1,9 @@
-# Projets de Hoani Julie-Suzanne
+# Gestion de la souris
 
-## Présentation
-Ce répertoire regroupe différents projets sur lesquels j'ai travaillé ces dernières années. Il fait en quelque sorte office de portfolio de mon travail.
-La plupart des projets contenus dans ce répertoire ont été fait dans le cadre de mon parcours scolaire post-Baccalauréat.
+## Contexte
+Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner au JavaScript.
+L'objectif était de construire un programme affichant un rectangle de couleur réagissant à différentes interactions avec la souris de l'utilisateur.
 
-## Structure
-Chaque branche du répertoire correspond à un projet différent.
+## Installation
+1. Cloner la branche
+2. Ouvrir le fichier `index.php` dans un navigateur
