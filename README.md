@@ -1,7 +1,9 @@
 # Jeu des billes
 
 ## Contexte
-Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner au JavaScript. L'objectif était de développer un jeu à deux joueurs basé sur une mécanique de retrait de billes.
+Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner au JavaScript.
+
+L'objectif était de développer un jeu à deux joueurs basé sur une mécanique de retrait de billes.
 
 ## Installation
 1. Cloner la branche
