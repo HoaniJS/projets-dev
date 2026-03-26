@@ -1,8 +1,8 @@
-# Projets de Hoani Julie-Suzanne
+# Mini application en JavaScript avec JSONPlaceholder
 
-## Présentation
-Ce répertoire regroupe différents projets sur lesquels j'ai travaillé ces dernières années. Il fait en quelque sorte office de portfolio de mon travail.
-La plupart des projets contenus dans ce répertoire ont été fait dans le cadre de mon parcours scolaire post-Baccalauréat.
+## Contexte
+Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner à la manipulation d'API REST, à la manipulation du DOM, à la gestion des états chargement/erreur/vide, et à la navigation simple entre plusieurs vues sans framework. L'objectif était d'afficher une liste d'utilisateur dans une colonne à gauche, les posts d'un utilisateur cliqué à droite, et les détails et commentaires d'un post cliqué à droite. 
 
-## Structure
-Chaque branche du répertoire correspond à un projet différent.
+## Installation
+1. Cloner la branche
+2. Ouvrir le fichier `index.php` dans un navigateur
