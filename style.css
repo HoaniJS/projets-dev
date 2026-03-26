@@ -1,0 +1,24 @@
+.userList {
+  overflow-y: auto;
+}
+
+.user, .post {
+  cursor: pointer;
+}
+
+.user:hover {
+  background-color: #e6e6e6;
+}
+
+.post:hover {
+  background-color: #e6e6e6;
+}
+
+.return:hover {
+  color: #555555;
+  cursor: pointer;
+}
+
+.card-title {
+  font-weight: bold;
+}
