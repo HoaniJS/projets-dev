@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Gestionnaire de tâches</title>
+</head>
+<body>
+    <header class="bg-secondary p-4 text-white">
+        <h1 class="text-center">Gestionnaire de tâches</h1>
+    </header>
+
+    <main>
+        <div class="card m-3">
+            <div class="card-header py-3">
+                <h5 class="card-title">Nouvelle tâche</h5>
+                <div class="row g-3 mt-1">
+                    <div class="form-floating col-md-12">
+                        <input type="text" class="form-control" placeholder="Titre de la tâche" minlength="1" maxlength="60" id="titreNew">
+                        <label for="titre" class="mx-2">Titre</label>
+                    </div>
+                    <div class="col-md-12 form-floating">
+                        <textarea class="form-control" placeholder="Description de la tâche" style="height: 150px" maxlength="850" id="descNew"></textarea>
+                        <label for="desc" class="mx-2">Description (facultatif)</label>
+                    </div>
+                    <div class="col d-flex justify-content-md-end">
+                        <button class="btn btn-primary py-2" type="submit">Enregister</button>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Rechercher une tâche...">
+                        </div>
+                        <div class="col-md-4 gap-2 d-flex justify-content-md-end">
+                            <button class="btn btn-primary">Toutes</button>
+                            <button class="btn btn-outline-primary">À faire</button>
+                            <button class="btn btn-outline-primary">En cours</button>
+                            <button class="btn btn-outline-primary">Terminées</button>
+                            <button class="btn btn-outline-primary">Bloquées</button>
+                        </div>
+                    </div>
+                </li>
+                <div class="text-center card-body tacheEmpty">Aucune tâche.</div>
+                <li class="list-group-item d-none">
+                    <div class="card my-2 p-3">
+                        <div class="tacheEdit">
+                            <div class="row g-3 mb-3">
+                                <div class="form-floating col-md-4">
+                                    <input type="text" class="form-control" placeholder="Titre de la tâche" minlength="1" maxlength="60" id="titreEdit">
+                                    <label for="titre" class="mx-2">Titre</label>
+                                </div>
+                                <div class="form-floating col-md-2">
+                                    <select class="form-select" id="statutSelect">
+                                        <option value="à faire" selected>à faire</option>
+                                        <option value="en cours">en cours</option>
+                                        <option value="terminée">terminée</option>
+                                        <option value="bloquée">bloquée</option>
+                                    </select>
+                                    <label for="statutSelect" class="mx-2">Statut</label>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Description de la tâche" style="height: 150px" maxlength="850" id="descEdit"></textarea>
+                                <label for="desc">Description (facultatif)</label>
+                            </div>
+                            <div class="col d-flex justify-content-md-end">
+                                <button class="btn btn-primary py-2" type="submit">Enregister</button>
+                            </div>
+                        </div>
+                        <div class="tacheDisplay">
+                            <div class="row">
+                                <div class="col"><h5 class="fw-bold">Titre 1</h5> <span class="badge text-bg-primary rounded-pill">à faire</span></div>
+                                <div class="col gap-2 d-flex justify-content-md-end">
+                                    <button class="btn btn-outline-info py-2"><i class="bi bi-pencil"></i></button>
+                                    <button class="btn btn-outline-danger py-2"><i class="bi bi-trash3"></i></button>
+                                    <button class="btn btn btn-outline-success py-2"><i class="bi bi-check-lg"></i></button>
+                                </div>
+                            </div>
+                            <div class="row mt-2 mx-1">
+                                <p>Description</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="card my-2 p-3">
+                        <div class="row">
+                            <div class="col"><h5 class="fw-bold">Tâche 2</h5> <span class="badge text-bg-warning rounded-pill">en cours</span></div>
+                            <div class="col gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-outline-info py-2"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-danger py-2"><i class="bi bi-trash3"></i></button>
+                                <button class="btn btn btn-outline-success py-2"><i class="bi bi-check-lg"></i></button>
+                            </div>
+                        </div>
+                        <div class="row mt-2 mx-1">
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="card my-2 p-3">
+                        <div class="row">
+                            <div class="col"><h5 class="fw-bold">Tâche 3</h5> <span class="badge text-bg-success rounded-pill">terminée</span></div>
+                            <div class="col gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-outline-info py-2"><i class="bi bi-pencil"></i></button>
+                                <button class="btn btn-outline-danger py-2"><i class="bi bi-trash3"></i></button>
+                                <button class="btn btn btn-outline-success py-2"><i class="bi bi-check-lg"></i></button>
+                            </div>
+                        </div>
+                        <div class="row mt-2 mx-1">
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
