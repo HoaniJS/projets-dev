@@ -1,9 +1,10 @@
-# Projets de Hoani Julie-Suzanne
+# Sélecteur CSS
 
-## Présentation
-Ce répertoire regroupe différents projets sur lesquels j'ai travaillé ces dernières années. Il fait en quelque sorte office de portfolio de mon travail.
+## Contexte
+Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner à l'utilisation des sélecteurs CSS.
 
-La plupart des projets contenus dans ce répertoire ont été fait dans le cadre de mon parcours scolaire post-Baccalauréat.
+L'objectif était de modifier le fichier `exercice.css` de façon à répondre aux consignes en commentaire du fichier.
 
-## Structure
-Chaque branche du répertoire correspond à un projet différent.
+## Installation
+1. Cloner la branche
+2. Ouvrir le fichier `index.html` dans un navigateur
