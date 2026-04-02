@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/main.js"></script>
+    <title>Citation aléatoire</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center fw-bolder p-5">Cliquez pour afficher une citation</h1>
+    </header>
+
+    <main class="text-center">
+        <div>
+            <button type="button" class="btn btn-primary my-1" id="newButton">Nouvelle citation</button>
+        </div>
+
+        <div class="card mx-auto my-2 d-none" id="newQuoteCard">
+            <div class="card-body" id="newQuoteBody"></div>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-primary my-1" id="showFavs">Afficher les favoris</button>
+        </div>
+
+        <div class="card mx-auto my-2 d-none" id="quoteListCard">
+            <div class="card-header">
+                Citations favorites
+            </div>
+            <ul class="list-group list-group-flush" id="quoteList"></ul>
+        </div>
+    </main>
+</body>
+</html>
