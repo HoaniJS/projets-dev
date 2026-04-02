@@ -10,6 +10,6 @@ Bien que ce code soit assez grossier et que j'ai trouvé des sites faisant exact
 ## Installation
 1. Installer XAMPP si nécessaire
 2. Cloner la branche dans le sous-répertoire `htdocs` du répertoire principal de XAMPP (accessible par le bouton `Explorer` sur XAMPP Control Panel)
-  - Vérifier que la branche active soit bien `autres.randomizer`
+    - Vérifier que la branche active soit bien `autres.randomizer`
 4. Lancer Apache dans XAMPP Control Panel
 5. Entrer [http://localhost/projets-dev/](http://localhost/projets-dev/) dans la barre d'adresse du navigateur
