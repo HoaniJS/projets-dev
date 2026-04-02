@@ -1,18 +1,15 @@
-# Projets de Hoani Julie-Suzanne
+# Todo List
 
-## Présentation
-Ce répertoire regroupe différents projets sur lesquels j'ai travaillé ces dernières années. Il fait en quelque sorte office de portfolio de mon travail.
+## Contexte
+Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner à React.
 
-La plupart des projets contenus dans ce répertoire ont été fait dans le cadre de mon parcours scolaire post-Baccalauréat.
+L'objectif était de créer une application style "todo list" en React avec Vite.
 
-## Prérequis
-- [Node](https://nodejs.org/fr/download)
-- [XAMPP Control Panel](https://www.apachefriends.org/fr/download.html)
-    - Vous pouvez utiliser un autre serveur local si vous désirez, mais je ne peux garantir que mes projets fonctionnent avec autre chose que XAMPP
-- Un navigateur (tous mes projets ont été testés sur [Firefox](https://www.firefox.com/fr/download/all/) de mon côté)
-- Un logiciel d'édition de code (ex : Visual Studio Code)
+L'énoncé complet de l'exercice est disponible [ici](https://github.com/HoaniJS/projets-dev/blob/efrei.toto-list/instruction.md).
 
-## Structure
-Chaque branche du répertoire correspond à un projet différent.
-
-Pour accéder à un projet, vérifiez que la branche active corresponde bien à celui que vous voulez consulter.
+## Installation
+1. Cloner la branche
+2. Accéder au répertoire depuis la console
+3. Entrer la commande `npm install`
+    - Si Node n'est pas installé, l'installer d'abord
+4. Entrer la commande `npm run dev` et accéder à l'adresse affichée par la console
