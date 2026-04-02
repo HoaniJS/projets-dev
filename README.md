@@ -5,7 +5,7 @@ Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner �
 
 L'objectif était de créer une application style "todo list" en React avec Vite.
 
-L'énoncé complet de l'exercice est disponible [ici](https://github.com/HoaniJS/projets-dev/blob/efrei.toto-list/instructions.md).
+L'énoncé complet de l'exercice est disponible [ici](https://github.com/HoaniJS/projets-dev/blob/efrei.todo-list/instructions.md).
 
 ## Installation
 1. Cloner la branche
