@@ -1,18 +1,16 @@
-# Projets de Hoani Julie-Suzanne
+# React + Vite
 
-## Présentation
-Ce répertoire regroupe différents projets sur lesquels j'ai travaillé ces dernières années. Il fait en quelque sorte office de portfolio de mon travail.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-La plupart des projets contenus dans ce répertoire ont été fait dans le cadre de mon parcours scolaire post-Baccalauréat.
+Currently, two official plugins are available:
 
-## Prérequis
-- [Node](https://nodejs.org/fr/download)
-- [XAMPP Control Panel](https://www.apachefriends.org/fr/download.html)
-    - Vous pouvez utiliser un autre serveur local si vous désirez, mais je ne peux garantir que mes projets fonctionnent avec autre chose que XAMPP
-- Un navigateur (tous mes projets ont été testés sur [Firefox](https://www.firefox.com/fr/download/all/) de mon côté)
-- Un logiciel d'édition de code (ex : Visual Studio Code)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Structure
-Chaque branche du répertoire correspond à un projet différent.
+## React Compiler
 
-Pour accéder à un projet, vérifiez que la branche active corresponde bien à celui que vous voulez consulter.
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
