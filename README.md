@@ -3,7 +3,7 @@
 ## Contexte
 Ce projet est le résultat d'un exercice fait à EFREI, visant à découvrir Express.js.
 
-L'objectif était de créer des routes HTTPS et de réaliser un CRUD complet.
+L'objectif était de créer des routes HTTP et de réaliser un CRUD complet.
 
 ## Installation
 1. Cloner la branche
@@ -13,8 +13,8 @@ L'objectif était de créer des routes HTTPS et de réaliser un CRUD complet.
     - `npm install -D nodemon`
 4. Entrer la commande `npm run dev` et accéder à l'adresse affichée par la console
 
-## Routes HTTPS
-Les routes HTTPS suivantes sont accessibles sur le site :
+## Routes HTTP
+Les routes HTTP suivantes sont accessibles sur le site :
 - `GET /api/users`
 - `GET /api/users/:id`
 - `POST /api/users`
