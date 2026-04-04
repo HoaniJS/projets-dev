@@ -13,7 +13,7 @@ L'objectif était de structurer une API Express en MVC minimal avec un CRUD dans
     - `npm install -D nodemon`
 4. Entrer la commande `npm run dev` et accéder à l'adresse affichée par la console
 
-## Routes HTTPS
+## Routes HTTP
 Les routes HTTP suivantes sont accessibles sur le site :
 - `GET /api/products` (filtres : `q`, `minPrice`, `maxPrice`, `limit`, `offset`)
 - `GET /api/products/:id`
