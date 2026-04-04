@@ -1,18 +1,23 @@
-# Projets de Hoani Julie-Suzanne
+# API MVC Express avec POO
 
-## Présentation
-Ce répertoire regroupe différents projets sur lesquels j'ai travaillé ces dernières années. Il fait en quelque sorte office de portfolio de mon travail.
+## Contexte
+Ce projet est le résultat d'un exercice fait à EFREI, visant à s'entraîner à la maîtrise de Express.js.
 
-La plupart des projets contenus dans ce répertoire ont été fait dans le cadre de mon parcours scolaire post-Baccalauréat.
+L'objectif était de structurer une API Express en MVC minimal avec un CRUD dans le Modèle et de pratiquer la POO en JavaScript
 
-## Prérequis
-- [Node](https://nodejs.org/fr/download)
-- [XAMPP Control Panel](https://www.apachefriends.org/fr/download.html)
-    - Vous pouvez utiliser un autre serveur local si vous désirez, mais je ne peux garantir que mes projets fonctionnent avec autre chose que XAMPP
-- Un navigateur (tous mes projets ont été testés sur [Firefox](https://www.firefox.com/fr/download/all/) de mon côté)
-- Un logiciel d'édition de code (ex : Visual Studio Code)
+## Installation
+1. Cloner la branche
+2. Accéder au répertoire depuis la console
+3. Entrer les commandes suivantes :
+    - `npm install express`
+    - `npm install -D nodemon`
+4. Entrer la commande `npm run dev` et accéder à l'adresse affichée par la console
 
-## Structure
-Chaque branche du répertoire correspond à un projet différent.
-
-Pour accéder à un projet, vérifiez que la branche active corresponde bien à celui que vous voulez consulter.
+## Routes HTTPS
+Les routes HTTP suivantes sont accessibles sur le site :
+- `GET /api/products` (filtres : `q`, `minPrice`, `maxPrice`, `limit`, `offset`)
+- `GET /api/products/:id`
+- `POST /api/products` (`name` et `price` requis)
+- `PUT /api/products/:id`
+- `PATCH /api/products/:id` (`name` ou `price`)
+- `DELETE /api/products/:id`
