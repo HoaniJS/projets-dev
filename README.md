@@ -23,7 +23,7 @@ Les agents ont accès à la liste des incidents ouverts, avec la possibilité d'
 ## Identifiants de connexion
 La base de données contient déjà des identifiants de connexion, permettant de tester l'application. Seuls ceux correspondant aux rôles d'utilisateur et d'agent donnent accès à des fonctionnalités exclusives sur le site (un administrateur peut également accéder à la route `\update-hash`, permettant seulement de mettre à jour le hash des mots de passe de chaque utilisateur).
 
-Les identifiants (au format **adresse mail** / **mot de passe** sont les suivants :
+Les identifiants (au format **adresse mail** / **mot de passe**) sont les suivants :
 - utilisateur1@gilla.fr / utilisateur
 - utilisateur2@gilla.fr / utilisateur
 - agent1@gilla.fr / agent
